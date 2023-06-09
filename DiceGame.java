@@ -11,5 +11,12 @@ public class DiceGame{
     System.out.println("Die 1: " + die1);
     System.out.println("Die 2: " + die2);
     System.out.println("Total value: " + value);
+    
+     if(value > 7){
+        System.out.println("You won");
+    }
+    else{
+        System.out.println("You lose");
+    }
   }
 }
